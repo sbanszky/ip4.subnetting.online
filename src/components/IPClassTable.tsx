@@ -13,7 +13,7 @@ export const IPClassTable: React.FC = () => {
               <th className="text-left py-2 px-4">MSB Pattern</th>
               <th className="text-left py-2 px-4">First Octet Range</th>
               <th className="text-left py-2 px-4">Default Mask</th>
-              <th className="text-left py-2 px-4">First Private Subnet</th>
+              <th className="text-left py-2 px-4">Private Space</th>
               <th className="text-left py-2 px-4">Subnet Mask</th>
             </tr>
           </thead>
