@@ -28,7 +28,7 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-8">
             <Network className="w-8 h-8 text-emerald-400" />
-            <h1 className="text-3xl font-bold text-emerald-400">IP Subnetting</h1>
+            <h1 className="text-3xl font-bold text-emerald-400">IPv4 Subnetting / Supernetting</h1>
           </div>
 
           <div className="bg-gray-800 rounded-xl shadow-xl p-6 space-y-8 border border-gray-700">
