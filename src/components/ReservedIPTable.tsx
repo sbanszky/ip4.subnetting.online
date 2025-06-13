@@ -11,13 +11,13 @@ const RESERVED_IPS: ReservedIPRange[] = [
   {
     range: '0.0.0.0 – 0.255.255.255',
     cidr: '0.0.0.0/8',
-    purpose: 'This Network (Default Route)',
+    purpose: 'Default Route',
     addresses: '16,777,216'
   },
   {
     range: '10.0.0.0 – 10.255.255.255',
     cidr: '10.0.0.0/8',
-    purpose: 'Private Use Networks',
+    purpose: 'Private Use Network',
     addresses: '16,777,216'
   },
   {
@@ -61,6 +61,12 @@ const RESERVED_IPS: ReservedIPRange[] = [
     cidr: '240.0.0.0/4',
     purpose: 'Class E/Experimental',
     addresses: '268,435,455'
+  },
+  {
+    range: '255.255.255.255',
+    cidr: '255.255.255.255/32',
+    purpose: 'Limited Broadcast',
+    addresses: '1'
   }
 ];
 
