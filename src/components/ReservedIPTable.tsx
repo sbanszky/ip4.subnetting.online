@@ -61,12 +61,6 @@ const RESERVED_IPS: ReservedIPRange[] = [
     cidr: '240.0.0.0/4',
     purpose: 'Class E/Experimental',
     addresses: '268,435,455'
-  },
-  {
-    range: '255.255.255.255',
-    cidr: '255.255.255.255/32',
-    purpose: 'Broadcast',
-    addresses: '1'
   }
 ];
 
