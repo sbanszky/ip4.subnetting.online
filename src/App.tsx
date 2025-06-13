@@ -3,6 +3,7 @@ import { Network } from 'lucide-react';
 import { SubnetVisualizer } from './components/SubnetVisualizer';
 import { IPClassTable } from './components/IPClassTable';
 import { IPInput } from './components/IPInput';
+import { ReservedIPTable } from './components/ReservedIPTable';
 
 function App() {
   const [ip, setIP] = useState([192, 168, 10, 5]);
@@ -32,6 +33,7 @@ function App() {
 
           <div className="bg-gray-800 rounded-xl shadow-xl p-6 space-y-8 border border-gray-700">
             <IPClassTable />
+            <ReservedIPTable />
             <IPInput ip={ip} onIPChange={setIP} />
             <SubnetVisualizer 
               ip={ip}

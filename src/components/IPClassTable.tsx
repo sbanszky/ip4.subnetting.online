@@ -32,14 +32,14 @@ export const IPClassTable: React.FC = () => {
                 </td>
                 <td className="py-2 px-4 font-mono">
                   {ipClass.class === 'A' && '10.0.0.0/8'}
-                  {ipClass.class === 'B' && '172.16.0.0/20'}
+                  {ipClass.class === 'B' && '172.16.0.0/12'}
                   {ipClass.class === 'C' && '192.168.0.0/16'}
                   {ipClass.class === 'D' && 'N/A'}
                   {ipClass.class === 'E' && 'N/A'}
                 </td>
                 <td className="py-2 px-4 font-mono">
                   {ipClass.class === 'A' && '255.0.0.0'}
-                  {ipClass.class === 'B' && '255.255.240.0'}
+                  {ipClass.class === 'B' && '255.240.0.0'}
                   {ipClass.class === 'C' && '255.255.0.0'}
                   {ipClass.class === 'D' && 'N/A'}
                   {ipClass.class === 'E' && 'N/A'}
