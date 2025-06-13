@@ -65,7 +65,7 @@ const RESERVED_IPS: ReservedIPRange[] = [
   {
     range: '255.255.255.255',
     cidr: '255.255.255.255/32',
-    purpose: 'Limited Broadcast',
+    purpose: 'Broadcast',
     addresses: '1'
   }
 ];
